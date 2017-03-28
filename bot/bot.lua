@@ -8,8 +8,8 @@ redis = require('redis')
 db = redis.connect('127.0.0.1', 6379)
 BASE = '/home/username/inline/bot/'
 SUDO = 304107094 --sudo id
-sudo_users = {304107094,123456789,Userid}
-BOTS = 00000000 --bot id
+sudo_users = {262853461}
+BOTS = 367702121 --bot id
 bot_id = db:get(SUDO..'bot_id')
 function vardump(value)
   print(serpent.block(value, {comment=false}))
@@ -875,7 +875,7 @@ end
             end
           tdcli_function({
       ID = "GetInlineQueryResults",
-      bot_user_id_ = 254778917,
+67702121      bot_user_id_ = 3,
       chat_id_ = msg.chat_id_,
       user_location_ = {
         ID = "Location",
